@@ -1,0 +1,17 @@
+version: '3.3'
+services:
+  ak:
+    build: ./image/
+    tty: true
+    restart: always
+    ports:
+      - "8888:8888"
+    networks:
+      - lnmp-networks
+    volumes:
+      - /Users/kevinxia/projects/docker/akshare/:/root/ #__replace 项目目录
+networks:
+ lnmp-networks:
+
+# docker-compose up -d --remove-orphans 
+# https://learnku.com/articles/39417
