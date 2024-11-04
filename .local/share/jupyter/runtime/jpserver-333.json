@@ -2,12 +2,12 @@
   "base_url": "/",
   "hostname": "0.0.0.0",
   "password": false,
-  "pid": 105,
+  "pid": 333,
   "port": 8888,
   "root_dir": "/",
   "secure": false,
   "sock": "",
-  "token": "994c922ce769fdd6474caa22a7c9274a4e51b9f9b7ad8108",
+  "token": "ab3e5303b29ace0fcbb347342637dc3f2913e1e9328b4186",
   "url": "http://9c5e9d7f8916:8888/",
   "version": "1.13.4"
 }
